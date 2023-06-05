@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_imagen">
+            <img src="Frame 6.png" alt="titulo">                        
+        </div> 
+    </header>
+    <main>
+        <section class="seccion1">
+         
+            <input class="textarea1" type="text" id="textoEncriptado" placeholder="Escriba un texto" >
+            <div class="contenedor_botones">
+                <button type="button" id="botonEncriptado">Encriptar</button>
+                <button type="button" id="botonDesencriptado">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion3">
+            <div class="contenedor_imagen1">
+                <img src="Muneco.png" alt="titulo">                        
+           
+        </section>
+        <section class="seccion2">
+           
+            <textarea  name="resultado" id="textoDesencriptado">...</textarea> 
+            <div class="contenedor_botones">
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+        </section>
+        <script>
+            var boton1 = document.querySelector("#botonEncriptado");
+            boton1.onclick = encriptar;   
+            var boton2 = document.querySelector("#botonDesencriptado");
+            boton2.onclick = desencriptar;
+            var boton3 = document.querySelector("#botonCopiar");
+            boton3.onclick = copiar;
+        </script> 
+ 
+</main>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+<!-- <body>
+    <header>
+        <h1>Encriptador/desencriptador</h1>
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <div class="contenedor_subtitulo">
+                <h3>Texto a ENCRIPTAR o DESENCRIPTAR</h3>
+            </div>
+            <input type="text" class="textarea" id="textoEncriptado" placeholder="Escribe el texto a decodificar"> 
+            <div class="contenedor_botones">
+                <button type="button" id="botonEncriptado">Encriptar</button>
+                <button type="button" id="botonDesencriptado">Desencriptar</button>
+            </div>
+            <script>
+                var boton1 = document.querySelector("#botonEncriptado");
+                boton1.onclick = encriptar;   
+                var boton2 = document.querySelector("#botonDesencriptado");
+                boton2.onclick = desencriptar;
+            </script> 
+
+        </section>
+
+        <section class="seccion2">
+            <div class="contenedor_subtitulo">
+                <h3>Resultado</h3>
+            </div>
+            <input type="text" class="textarea" id="textoDesencriptado" placeholder="..."> 
+            <div class="contenedor_botones">
+                <button type="button" id="botonCopiar">Copiar</button>
+            </div>
+
+                       
+        </section>
+     
+           <script>
+            var boton1 = document.querySelector("#botonEncriptado");
+            boton1.onclick = encriptar;   
+            var boton2 = document.querySelector("#botonDesencriptado");
+            boton2.onclick = desencriptar;
+            var boton3 = document.querySelector("#botonCopiar");
+            boton3.onclick = copiar;
+        </script> 
+   
+    </main>
+
+    <footer>
+        <h1>El trabajo de la Lore</h1>
+    </footer>
+
+</body>
+
+
+
+</html>
+
+
+-->
+
+<!--
+borrar
+            <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+            <div class="contenedor_imagen">
+                   <img src="homero-esperando.jpg" alt="homero_espera">                        
+            </div> 
+
+
+   <input type="text" id="textoEncriptado">
+        <textarea name="resultado" id="textoDesencriptado" cols="30" rows="10"></textarea>
+        <button type="button" id="botonEncriptado">Encriptar</button>
+        <button type="button" id="botonDesencriptado">Desencriptar</button>
+        <button type="button" id="botonCopiar">Copiar</button>
+
+--> 
+
